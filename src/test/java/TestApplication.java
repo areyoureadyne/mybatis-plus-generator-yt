@@ -10,7 +10,7 @@ public class TestApplication {
                 .userName("root")
                 .password("root")
                 .port(8068)
-                .driverClassName("com.mysql.cj.jdbc.Driver")
+                .driverClassName("com.mysql.cj.jdbc.sDriver")
                 .basePackage("com.github.davidfantasy.mybatisplus.generatorui.example")
                 //数据库表前缀，生成entity名称时会去掉
                 .tablePrefix("t_")
